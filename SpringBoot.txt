@@ -1,1 +1,22 @@
 
+Annotation List : 
+
+1. @Required:It applies in bean setter method which indicates that the bean has to be initialized with the property . Otherwise a BeanInitializationException will be thrown .
+
+2. @Autowired: It is a annotation which is used for autowiring . We can use this annotation in setter method , constructor and instance variable . 
+
+3. @Configuration:It is class level annotation . The class annotated with this annotation is used by Spring contatiners as a source of bean definition . 
+
+4. @ComponentScan: It is used when we want to scan a package of bean . It is used with configuration . We can also specify exact package name where we want to run the component scan . 
+
+5. @Bean: It is a method level annotation . It tells the spring container to produce a bean . 
+
+6. @Component: It is a important annotation in spring . It is a class level annotation . A java class Annotated with @Component is found in class path . The Spring framework picks it up and configure it in the application context as a Spring Bean . 
+
+7. @Controller: It is a class level annotation . It is a specialization of @Component . It marks a class as web request handler . It is often used to serve web pages . By default, it returns a string that indicates which route to redirect. It is mostly used with @RequestMapping annotation.
+
+8. @Service: It is also used at class level. It tells the Spring that class contains the business logic.
+
+9.@Repository: It is a class-level annotation. The repository is a DAOs (Data Access Object) that access the database directly. The repository does all the operations related to the database.
+
+10.
